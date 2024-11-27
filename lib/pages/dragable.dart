@@ -8,7 +8,7 @@ class DragablePage extends StatefulWidget {
 }
 
 class _DragablePageState extends State<DragablePage> {
-  Offset offset = Offset(0.0, 0.0);
+  Offset offset = Offset.zero;
 
   @override
   Widget build(BuildContext context) {

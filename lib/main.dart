@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:sticker_board/pages/dragable.dart';
 
 import 'pages/dragable2.dart';
 

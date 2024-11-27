@@ -1,3 +1,5 @@
+// ignore_for_file: avoid_function_literals_in_foreach_calls
+
 import 'package:flutter/material.dart';
 
 class Dragable2Page extends StatefulWidget {
@@ -21,9 +23,9 @@ class _Dragable2PageState extends State<Dragable2Page> {
   void initState() {
     super.initState();
 
-    for (var i in listSticker) {
+    listSticker.forEach((v) {
       listOffset.add(Offset.zero);
-    }
+    });
   }
 
   @override
